@@ -17,21 +17,25 @@ const sketch = () => {
     context.fillStyle = 'white';
     context.fillRect(0, 0, width, height);
 
+    /*
     // 黑色方塊
-    // context.fillStyle = 'black';
-    // const x = width * 0.5;
-    // const y = height * 0.5;
-    // const w = width * 0.3;
-    // const h = height * 0.3;
+    context.fillStyle = 'black';
+    const x = width * 0.5;
+    const y = height * 0.5;
+    const w = width * 0.3;
+    const h = height * 0.3;
 
-    // context.save();
+    context.save();
     // context.translate(x, y);
     // context.rotate(0.3);
 
-    // context.beginPath();
-    // context.rect(-w * 0.5, -h * 0.5, w, h);
-    // context.fill();
-    // context.restore();
+    context.beginPath();
+    context.rect(x, y, w, h);
+    //context.rect(-w * 0.5, -h * 0.5, w, h);
+    context.fill();
+    context.restore();
+
+    */
 
     // 紅色圓圈
     // context.beginPath();
@@ -39,6 +43,7 @@ const sketch = () => {
     // context.arc(0, 0, 30, 0, Math.PI * 2);
     // context.fill();
 
+    /*
     context.fillStyle = 'black';
     // 中心點 x, y
     const cx = width * 0.5;
@@ -81,6 +86,8 @@ const sketch = () => {
       context.stroke();
       context.restore();
     }
+
+   */
   };
 };
 

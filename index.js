@@ -3,7 +3,7 @@ let context = canvas.getContext('2d');
 
 
 context.fillStyle = '#44ea77';
-//context.fillRect(50, 50, 300, 300);
+// context.fillRect(50, 50, 300, 300);
 
 context.beginPath();
 context.rect(10, 10, 50, 50);
@@ -11,12 +11,15 @@ context.strokeStyle = 'red';
 // context.lineWidth = 5;
 context.stroke();
 
-context.beginPath();
-context.arc(200, 200, 120, 0, Math.PI * 2);
-context.fillStyle = 'pink';
-context.fill();
+// 圓形
+// context.beginPath();
+// context.arc(200, 200, 120, 0, Math.PI * 2);
+// context.fillStyle = 'pink';
+// context.fill();
 
 
+// 5 x 5
+/*
 const w = 50;
 const h = 50;
 const gap = 20;
@@ -27,13 +30,15 @@ for (let i = 0; i < 5; i++) {
     y = 100 + (h + gap) * j;
     context.beginPath();
     context.rect(x, y, w, h);
-    context.strokeStyle = 'blue';
+    // context.strokeStyle = 'blue';
     context.stroke();
-    if (Math.random() > .5) {
+   // if (Math.random() > .5) {
       context.beginPath();
       context.rect(x + 8, y + 8, w - 16, h - 16);
-      context.strokeStyle = 'yellow';
+      // context.strokeStyle = 'yellow';
       context.stroke();
-    }
+   // }
   }
 }
+
+*/

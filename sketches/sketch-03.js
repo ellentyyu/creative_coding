@@ -79,7 +79,6 @@ class Agent {
     this.pos.y += this.vel.y;
   }
   draw(context) {
-    //context.strokeStyle = 'turquoise';
     context.lineWidth = 4;
 
     context.save();
